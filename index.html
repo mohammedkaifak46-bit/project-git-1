@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE CREASE — Cricket Central</title>
+<style>
+:root{--navy:#101d32;--blue:#174c83;--lime:#c8ef55;--paper:#f4f6f4;--muted:#687586}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:#172337;font-family:Arial,Helvetica,sans-serif}
+nav{height:74px;background:var(--navy);display:flex;align-items:center;justify-content:space-between;padding:0 8%;position:absolute;top:0;width:100%;z-index:3}
+.logo{font-size:23px;font-weight:900;letter-spacing:2px;color:white}.logo span{color:var(--lime)}
+nav a{color:#e5eaf0;text-decoration:none;margin-left:26px;font-size:13px;font-weight:bold}nav a:hover{color:var(--lime)}
+.hero{min-height:690px;height:94vh;display:flex;align-items:center;padding:110px 10% 70px;color:white;background:linear-gradient(90deg,rgba(8,20,37,.91),rgba(8,20,37,.24)),url('https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=2000&q=85') center/cover}
+.hero-inner{max-width:650px}.tag{font-size:12px;letter-spacing:4px;color:var(--lime);font-weight:bold}.hero h1{font-size:clamp(52px,8vw,100px);line-height:.91;letter-spacing:-4px;margin:22px 0}.hero p{font-size:17px;line-height:1.7;color:#e0e6ed;max-width:490px}.btn{display:inline-block;background:var(--lime);color:var(--navy);padding:15px 24px;text-decoration:none;font-size:12px;font-weight:900;letter-spacing:1px;margin-top:18px;border-radius:2px}.btn:hover{background:white}
+section{padding:82px 9%}.section-head{text-align:center;max-width:720px;margin:0 auto 42px}.section-head .tag{color:var(--blue)}h2{font-size:clamp(32px,4vw,49px);margin:12px 0;color:var(--navy);letter-spacing:-1.5px}.section-head p{color:var(--muted);line-height:1.7}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:white;box-shadow:0 10px 30px #14243b0b}.card img{width:100%;height:220px;object-fit:cover;display:block}.card-content{padding:24px}.card h3{margin:0 0 10px;font-size:21px;color:var(--navy)}.card p{margin:0;color:var(--muted);font-size:14px;line-height:1.7}
+.dark{background:var(--navy);color:white}.dark .section-head h2{color:white}.dark .section-head p{color:#bdc7d4}.dark .section-head .tag{color:var(--lime)}
+.format-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.format{border:1px solid #ffffff2c;padding:26px}.format strong{font-size:30px;color:var(--lime)}.format h3{font-size:19px}.format p{font-size:14px;line-height:1.7;color:#c0cad6}
+.tips{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.tips img{width:100%;height:390px;object-fit:cover}.tips h2{font-size:clamp(34px,4vw,50px)}.tips p{color:var(--muted);line-height:1.8}.tips ul{padding-left:20px;color:#405064;line-height:2}
+footer{background:#0a1424;color:#c5ced8;padding:35px 9%;display:flex;justify-content:space-between;flex-wrap:wrap;gap:15px;font-size:13px}footer b{font-size:20px;color:white;letter-spacing:2px}
+@media(max-width:760px){nav{padding:0 5%}nav a{margin-left:10px;font-size:11px}.hero{min-height:650px}.cards,.format-grid,.tips{grid-template-columns:1fr}.tips img{height:280px}section{padding:65px 7%}}
+</style></head>
+<body>
+<nav><div class="logo">THE<span> CREASE</span>.</div><div><a href="#about">ABOUT</a><a href="#formats">FORMATS</a><a href="#skills">SKILLS</a></div></nav>
+<header class="hero"><div class="hero-inner"><div class="tag">PASSION • TEAMWORK • SPORTSMANSHIP</div><h1>THE GAME<br>WE LOVE.</h1><p>Welcome to the world of cricket — a game of skill, strategy, teamwork and unforgettable moments.</p><a class="btn" href="#about">EXPLORE CRICKET ↓</a></div></header>
+<section id="about"><div class="section-head"><div class="tag">WELCOME TO CRICKET</div><h2>More than just a game.</h2><p>Cricket is played between two teams of eleven players. One team bats to score runs while the other bowls and fields to stop them. It brings people together through excitement, discipline and team spirit.</p></div><div class="cards">
+<article class="card"><img src="https://images.unsplash.com/photo-1593766827228-8737b7cd1472?auto=format&fit=crop&w=900&q=80" alt="Cricket batter playing a shot"><div class="card-content"><h3>Batting</h3><p>Batters score runs by hitting the ball and running between the wickets or sending it to the boundary.</p></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1624897174291-1bd715e371d5?auto=format&fit=crop&w=900&q=80" alt="Cricket bowler delivering the ball"><div class="card-content"><h3>Bowling</h3><p>Bowlers aim to dismiss batters and limit the number of runs scored by the opposing team.</p></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1566577739112-5180d4bf9390?auto=format&fit=crop&w=900&q=80" alt="Cricket field with players"><div class="card-content"><h3>Fielding</h3><p>Fielders work together to stop runs, catch the ball and support the bowler.</p></div></article>
+</div></section>
+<section class="dark" id="formats"><div class="section-head"><div class="tag">THREE POPULAR FORMATS</div><h2>Different formats. Same spirit.</h2><p>Cricket can be played in different formats, each with its own pace and strategy.</p></div><div class="format-grid">
+<div class="format"><strong>01</strong><h3>Test Cricket</h3><p>Played over up to five days, with two innings per team. It tests patience, technique and endurance.</p></div>
+<div class="format"><strong>02</strong><h3>One Day International</h3><p>Each team gets 50 overs. It combines long-term planning with exciting limited-overs action.</p></div>
+<div class="format"><strong>03</strong><h3>Twenty20 (T20)</h3><p>Each team gets 20 overs. It is a fast-paced format full of quick decisions and big moments.</p></div>
+</div></section>
+<section id="skills"><div class="tips"><div><div class="tag" style="color:var(--blue)">LEARN • PRACTISE • IMPROVE</div><h2>Build your cricket skills.</h2><p>Every great player develops through practice, patience and a willingness to learn. Good cricket is not only about talent — it is also about respect and teamwork.</p><ul><li>Practise batting and bowling basics.</li><li>Improve catching and throwing.</li><li>Communicate clearly with teammates.</li><li>Respect teammates, opponents and umpires.</li><li>Enjoy the game and keep learning.</li></ul></div><img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1100&q=85" alt="Cricket stadium filled with spectators"></div></section>
+<footer><b>THE CREASE.</b><span>Celebrating the spirit of cricket.</span><span>© 2026 The Crease</span></footer>
+</body></html>
